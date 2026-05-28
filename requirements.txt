@@ -1,0 +1,33 @@
+# PulseCompanion Backend Dependencies
+# Pinned versions for reproducibility
+
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# LangChain / LangGraph orchestration
+langchain-core==0.3.29
+langgraph==0.2.60
+langchain-community==0.3.14
+
+# HTTP client
+httpx==0.28.1
+
+# Vector database
+chromadb==0.6.3
+
+# Data validation and settings
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# Environment management
+python-dotenv==1.0.1
+
+# WebSocket support
+websockets==14.1
+
+# Multipart form parsing
+python-multipart==0.0.20
+
+# Structured logging
+structlog==24.4.0

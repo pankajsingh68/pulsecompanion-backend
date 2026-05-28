@@ -1,0 +1,53 @@
+# =============================================================================
+# PulseCompanion Backend — .gitignore
+# =============================================================================
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment files (secrets)
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# ChromaDB local data (runtime-generated)
+chroma_data/
+
+# Voice session snapshots (runtime-generated)
+voice_sessions/
+
+# Large model binaries (download separately)
+models/kokoro/*.onnx
+models/kokoro/*.bin
+
+# Logs
+*.log
+logs/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
